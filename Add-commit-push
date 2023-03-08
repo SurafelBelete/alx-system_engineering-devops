@@ -1,0 +1,5 @@
+#!/bin/bash
+git add .
+echo write commit message 
+read -d "!" commit
+git commit -m "$commit"
